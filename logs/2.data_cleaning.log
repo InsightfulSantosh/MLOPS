@@ -1,0 +1,23 @@
+2025-02-18 00:29:58,716 - INFO - 🚀 Starting the data cleaning process.
+2025-02-18 00:29:58,716 - DEBUG - 🔍 Ensuring necessary directories exist.
+2025-02-18 00:29:58,716 - DEBUG - Created directory: /Users/santoshkumar/Data_science/Tweet_semtiment/data/interim
+2025-02-18 00:29:58,716 - INFO - 📥 Loading training data from: data/raw/train/train.csv
+2025-02-18 00:29:58,716 - INFO - 📥 Loading testing data from: data/raw/test/test.csv
+2025-02-18 00:29:58,729 - INFO - ✅ Data successfully loaded.
+2025-02-18 00:29:58,729 - DEBUG - 🧼 Starting data normalization.
+2025-02-18 00:29:58,729 - DEBUG - Starting the data preprocessing pipeline.
+2025-02-18 00:29:58,780 - DEBUG - Data cleaning completed successfully.
+2025-02-18 00:29:58,786 - DEBUG - Removed short words (length < 3) successfully.
+2025-02-18 00:29:59,346 - DEBUG - Lemmatization completed successfully.
+2025-02-18 00:29:59,354 - DEBUG - Stopwords removed successfully.
+2025-02-18 00:29:59,354 - DEBUG - Text preprocessing completed successfully.
+2025-02-18 00:29:59,354 - DEBUG - Starting the data preprocessing pipeline.
+2025-02-18 00:29:59,387 - DEBUG - Data cleaning completed successfully.
+2025-02-18 00:29:59,392 - DEBUG - Removed short words (length < 3) successfully.
+2025-02-18 00:29:59,452 - DEBUG - Lemmatization completed successfully.
+2025-02-18 00:29:59,456 - DEBUG - Stopwords removed successfully.
+2025-02-18 00:29:59,456 - DEBUG - Text preprocessing completed successfully.
+2025-02-18 00:29:59,456 - INFO - ✅ Data normalization completed.
+2025-02-18 00:29:59,457 - INFO - 💾 Saving processed training data to: ./data/interim/train_processed.csv
+2025-02-18 00:29:59,462 - INFO - 💾 Saving processed testing data to: ./data/interim/test_processed.csv
+2025-02-18 00:29:59,466 - INFO - 🎉 Data cleaning process completed successfully!
